@@ -14,7 +14,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/SimCity Panoramic.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'SimCity Panoramic.png'));
+  res.sendFile(path.join(__dirname, 'Simcity', 'Panoramic.png'));
 });
 
 
